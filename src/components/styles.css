@@ -1,0 +1,121 @@
+/* Style elements for markdown editor and preview */
+
+.test {
+  display: inline-block;
+  margin: 2em auto;
+  border: 2px solid #000;
+  font-size: 2em;
+}
+.container {
+  margin: 60px auto;
+  width: 70%;
+}
+.toolbar {
+  background: #4e6785;
+  border: 1px solid #4e6785;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0.5rem 10px;
+  /* width: 95%; */
+}
+.group {
+  border-right: 1px solid #a5a5a5;
+  margin-right: 4px;
+  display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.textContainer {
+  height: 98.3%;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  overflow: auto;
+  height: auto;
+  padding: 8px;
+  font-family: "Lucida Grande";
+  font-size: 0.9rem;
+}
+
+.previewContainer {
+  height: 98.3%;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  overflow: auto;
+  height: auto;
+  padding: 8px;
+  border-style: double;
+  border-color: #4e6785;
+}
+
+button:hover {
+  background-color: #3b4e65;
+  border-color: #3b4e65;
+  border-radius: 8px;
+  outline: none;
+  
+}
+
+button:active {
+  background: darken(#3b4e65, 5%);
+  border-radius: 5px;
+  box-shadow: 0 0 2px lighten(#3b4e65, 5%) inset;
+  outline: 0px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  color: #a5a5a5;
+  font-family: "Lucida Grande";
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.7rem;
+}
+
+.viewButton:active {
+  background-color: #3b4e65;
+  background: #3b4e65;
+  border-color: #3b4e65;
+  border-radius: 8px;
+  outline: none;
+}
+
+.viewButton:hover {
+  background-color: #4e6785;
+  border-color: #4e6785;
+  border-radius: 8px;
+  outline: none;
+}
+
+.viewButton {
+  background: transparent;
+  border: none;
+  color: #a5a5a5;
+  font-family: "Lucida Grande";
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.7rem;
+}
+
+
+.previewButton {
+  background-color: #3b4e65;
+  background: #3b4e65;
+  border-color: #3b4e65;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-family: "Lucida Grande";
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.7rem;
+  color: #a5a5a5;
+}
