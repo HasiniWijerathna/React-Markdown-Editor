@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/react-markdown-editor.svg)](https://www.npmjs.com/package/react-markdown-editor) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+![usage](https://user-images.githubusercontent.com/20472144/65385802-53455980-dd65-11e9-816b-b18df1efeb72.gif)
+
 ## Installation 
 
 Can be installed via npm:
@@ -45,6 +47,8 @@ class Example extends Component {
 }
 ```
 ```onChangeContent``` event handler fires each time when the content has been edited. You can use it to access the editor text content
+
+![usage](https://user-images.githubusercontent.com/20472144/65385837-ed0d0680-dd65-11e9-959f-13d96ed20a48.gif)
 
 ## Compatibility
 
