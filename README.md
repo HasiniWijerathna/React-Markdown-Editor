@@ -7,7 +7,8 @@
 ## Install
 
 ```bash
-npm install --save react-markdown-editor
+npm install --save react-edit-it
+
 ```
 
 ## Usage
@@ -15,7 +16,7 @@ npm install --save react-markdown-editor
 ```jsx
 import React, { Component } from "react";
 
-import ReactMarkdownEditor from "react-markdown-editor";
+import ReactMarkdownEditor from "react-edit-it";
 
 class Example extends Component {
   onChangeContent = props => {

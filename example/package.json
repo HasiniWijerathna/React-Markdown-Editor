@@ -8,7 +8,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-markdown-editor": "link:..",
+    "react-edit-it": "link:..",
     "react-scripts": "^1.1.4"
   },
   "scripts": {

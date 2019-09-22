@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import ReactMarkdownEditor from "react-markdown-editor";
+import ReactMarkdownEditor from "react-edit-it";
 
 export default class App extends Component {
   onChangeContent = props => {

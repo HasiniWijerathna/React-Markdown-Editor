@@ -1,6 +1,6 @@
 {
-  "short_name": "react-markdown-editor",
-  "name": "react-markdown-editor",
+  "short_name": "react-edit-it",
+  "name": "react-edit-it",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
