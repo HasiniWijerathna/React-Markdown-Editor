@@ -1,4 +1,4 @@
-# Reacr-Markdown-Editor
+# React-Markdown-Editor
 
 > Markdown editor for React JS
 

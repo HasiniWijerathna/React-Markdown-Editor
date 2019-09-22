@@ -21,7 +21,7 @@ class MarkdownPreview extends Component {
   render() {
     return (
       <div
-        className={styles.previewContainer}
+        className={styles.mkPreviewContainer}
         dangerouslySetInnerHTML={this.convertTextHtml()}
       ></div>
     );

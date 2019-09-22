@@ -248,9 +248,9 @@ class MarkdownEditor extends Component {
     let content = (
       <div>
         {" "}
-        <div className={styles.container}>
-          <div className={styles.toolbar}>
-            <div className={styles.group}>
+        <div className={styles.mkcontainer}>
+          <div className={styles.mktoolbar}>
+            <div className={styles.mkgroup}>
               <button className={styles.button} onClick={this.handleHeader1}>
                 {" "}
                 <FontAwesomeIcon icon={faHeading} />1
@@ -265,7 +265,7 @@ class MarkdownEditor extends Component {
               </button>
             </div>
 
-            <div className={styles.group}>
+            <div className={styles.mkgroup}>
               <button className={styles.button} onClick={this.handleTextBold}>
                 {" "}
                 <FontAwesomeIcon icon={faBold} />
@@ -277,7 +277,7 @@ class MarkdownEditor extends Component {
               </button>
             </div>
 
-            <div className={styles.group}>
+            <div className={styles.mkgroup}>
               <button className={styles.button} onClick={this.handleTextLink}>
                 {" "}
                 <FontAwesomeIcon icon={faLink} />
@@ -322,9 +322,9 @@ class MarkdownEditor extends Component {
     if (this.state.preview) {
       content = (
         <div>
-          <div className={styles.container}>
-            <div className={styles.toolbar}>
-              <div className={styles.group}>
+          <div className={styles.mkcontainer}>
+            <div className={styles.mktoolbar}>
+              <div className={styles.mkgroup}>
                 <button className={styles.viewButton} >
                   {" "}
                   <FontAwesomeIcon icon={faHeading} />1
@@ -339,7 +339,7 @@ class MarkdownEditor extends Component {
                 </button>
               </div>
 
-              <div className={styles.group}>
+              <div className={styles.mkgroup}>
                 <button className={styles.viewButton}>
                   {" "}
                   <FontAwesomeIcon icon={faBold} />
@@ -350,7 +350,7 @@ class MarkdownEditor extends Component {
                 </button>
               </div>
 
-              <div className={styles.group}>
+              <div className={styles.mkgroup}>
                 <button className={styles.viewButton}>
                   {" "}
                   <FontAwesomeIcon icon={faLink} />

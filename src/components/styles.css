@@ -6,11 +6,11 @@
   border: 2px solid #000;
   font-size: 2em;
 }
-.container {
+.mkcontainer {
   margin: 60px auto;
   width: 70%;
 }
-.toolbar {
+.mktoolbar {
   background: #4e6785;
   border: 1px solid #4e6785;
   border-radius: 10px 10px 0 0;
@@ -19,7 +19,7 @@
   padding: 0.5rem 10px;
   /* width: 95%; */
 }
-.group {
+.mkgroup {
   border-right: 1px solid #a5a5a5;
   margin-right: 4px;
   display: inline;
@@ -39,7 +39,7 @@
   font-size: 0.9rem;
 }
 
-.previewContainer {
+.mkPreviewContainer {
   height: 98.3%;
   width: 100%;
   box-sizing: border-box;
