@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/react-markdown-editor.svg)](https://www.npmjs.com/package/react-markdown-editor) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+[![NPM](https://nodei.co/npm/react-edit-it.png)](https://nodei.co/npm/react-edit-it/)
+
 ![usage](https://user-images.githubusercontent.com/20472144/65385802-53455980-dd65-11e9-816b-b18df1efeb72.gif)
 
 ## Installation 
@@ -74,7 +76,7 @@ Code sample is available in the /example directory for your perusal. You can exe
 
 if you haven't, You may need to install,
 
-- npm or nvm (Go with nvm, its much easier to swicth versions! :neckbeard:)
+- npm or nvm (Go with nvm, its much easier to switch versions! :neckbeard:)
 - Node 8.16.0 or Node 10.16.0 or later version 
 
 
@@ -82,3 +84,5 @@ if you haven't, You may need to install,
 ## License
 
 MIT © [HasiniWijerathna](https://github.com/HasiniWijerathna)
+
+
