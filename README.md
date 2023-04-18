@@ -6,7 +6,7 @@
 
 [![NPM](https://nodei.co/npm/react-edit-it.png)](https://nodei.co/npm/react-edit-it/)
 
-![usage](https://user-images.githubusercontent.com/20472144/65385802-53455980-dd65-11e9-816b-b18df1efeb72.gif)
+![65385802-53455980-dd65-11e9-816b-b18df1efeb72](https://user-images.githubusercontent.com/20472144/232740081-1225c42d-4cc9-496d-a315-2905c273799b.gif)
 
 ## Installation 
 
@@ -50,7 +50,8 @@ class Example extends Component {
 ```
 ```onChangeContent``` event handler fires each time when the content has been edited. You can use it to access the editor text content
 
-![usage](https://user-images.githubusercontent.com/20472144/65385837-ed0d0680-dd65-11e9-959f-13d96ed20a48.gif)
+![65385837-ed0d0680-dd65-11e9-959f-13d96ed20a48](https://user-images.githubusercontent.com/20472144/232740154-c1d39df9-86ef-42dd-b13e-ec5fdea0a345.gif)
+
 
 ## Compatibility
 
